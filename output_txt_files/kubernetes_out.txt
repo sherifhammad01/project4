@@ -1,1 +1,13 @@
-<paste log output from Kubernetes-mediated prediction, here>
+./run_kubernetes.sh 
+pod/flaskskapp created
+NAME               READY   STATUS              RESTARTS   AGE
+flaskskapp         0/1     ContainerCreating   0          0s
+flaskskearlndemo   1/1     Running             0          45d
+error: unable to forward port because pod is not running. Current status=Pending
+ 
+ 
+ 
+sherifhammad@DESKTOP-IT86kBGKR:/mnt/c/Users/sherif/project4/DevOps_Microservices/project-ml-microservice-kubernetes$ kubectl.exe get pod
+NAME              READY STATUS    RESTARTS AGE
+flaskskapp        1/1    Running 0          2m20s
+flaskskearlndemo 1/1    Running 0          45d
